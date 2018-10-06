@@ -1,0 +1,50 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-gap: 16px;
+  height: 80%;
+  width: 90%;
+  z-index: -1;
+}
+
+#thanos {
+  z-index: 100;
+}
+
+#thanos:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+#snap {
+  height: 80%;
+  width: auto;
+  transition-duration: 4s;
+}
+
+.character {
+  transition-duration: 1s;
+}
+
+#the-truth {
+  transition-duration: 2s;
+}
