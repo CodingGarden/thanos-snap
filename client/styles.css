@@ -39,7 +39,7 @@ header {
   height: 80%;
   width: auto;
   transition-duration: 4s;
-  position: absolute;
+  position: fixed;
   margin: 0 auto;
   top: 120px;
 }
